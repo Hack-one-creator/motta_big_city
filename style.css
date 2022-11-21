@@ -1,4 +1,5 @@
 body {
+    margin: 0px;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("img/MOTTA_LA_CASTELLA_E_CAMPANILE_DEL_DUOMO_by_comune.jpg");
@@ -17,16 +18,22 @@ body {
 .second-part {
     background-color: #3c3125;
     color: #e1dccd;    
-    justify-content: center;
     display: flex;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 0px;
+    margin-bottom: 50px;
+    font-size: 20px;
 }
 
 .third-part {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #e1dccd;
     display: flex;
     justify-content: center;
     padding: 50px;
+    font-size: 30px;
 }
 
 #main-title {
@@ -38,7 +45,7 @@ body {
 
 .main-sub {
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 50px;
     color: #e1dccd;
     text-shadow: 5px 5px 5px #3c3125;
     background-size:contain;
@@ -77,4 +84,14 @@ body {
     background-size: cover;
     background-image: url("img/motta\ modificata.jpg");
     box-shadow: 0px 0px 50px #e1dccd;
+}
+
+#sindaco {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/sindaco.jpg");
+    border-radius: 50%;
+    margin: 10px;
 }
