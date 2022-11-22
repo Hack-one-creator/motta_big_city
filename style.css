@@ -5,6 +5,19 @@ body {
     background-image: url("img/MOTTA_LA_CASTELLA_E_CAMPANILE_DEL_DUOMO_by_comune.jpg");
 }
 
+a {
+    color:#e1dccd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6A564B;
+}
+
+p {
+    font-size: calc(20px/100*67);
+}
+
 .first-part {
     background: none;
     text-align: center;
@@ -19,13 +32,13 @@ body {
     color: #e1dccd;    
     display: flex;
     justify-content: center;
-    padding-top: 50px;
     padding-bottom: 0px;
-    margin-bottom: 50px;
-    font-size: 20px;
+    margin: 100px;
+    border-radius: 0% 30% 10% 30%;
 }
 
 .third-part {
+    color: #3c3125;
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -34,17 +47,20 @@ body {
     justify-content: center;
     padding: 50px;
     font-size: 20px;
+    margin: 50px;
+    column-gap: calc(100px/100*67);
+    border-radius: 0% 50% 10% 30%;
 }
 
 #main-title {
     margin-top: 200px;
-    font-size: 100px;
+    font-size: calc(100px/100*67);
     margin-bottom: 60px;
     text-shadow: 5px 5px 5px #3c3125;
 }
 
 .main-sub {
-    font-size: 50px;
+    font-size: calc(50px/100*67);
     margin-top: 50px;
     color: #e1dccd;
     text-shadow: 5px 5px 5px #3c3125;
@@ -56,12 +72,12 @@ body {
 .best-places {
     margin: 60px;
     text-align: center;
-    text-shadow: 0px 5px 5px black;
+    text-shadow: 0px 3px 5px black;
 }
 
 #La-madonna {
-    width: 250px;
-    height: 200px;
+    width: calc(250px/100*67);
+    height: calc(200px/100*67);
     border-radius: 50%;
     box-shadow: 0px 0px 50px #e1dccd;
     background-size: cover;
@@ -70,8 +86,8 @@ body {
 
 #walk-on-city {
     border-radius: 50%;
-    width: 250px;
-    height: 200px;
+    width: calc(250px/100*67);
+    height: calc(200px/100*67);
     background-image: url("img/passeggiata-motta-di-livenza.jpg");
     background-size: cover;
     box-shadow: 0px 0px 50px #e1dccd;
@@ -79,19 +95,46 @@ body {
 
 #walk-on-wine {
     border-radius: 50%;
-    width: 250px;
-    height: 200px;
+    width: calc(250px/100*67);
+    height: calc(200px/100*67);
     background-size: cover;
     background-image: url("img/motta\ modificata.jpg");
     box-shadow: 0px 0px 50px #e1dccd;
 }
 
 #sindaco {
-    width: 250px;
-    height: 250px;
+    width: calc(250px/100*67);
+    height: calc(250px/100*67);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-image: url("img/sindaco.jpg");
     border-radius: 50%;
     box-shadow: 0px 0px 50px #3c3125;
+}
+
+#ass-1 {
+    width: calc(250px/100*67);
+    height: calc(250px/100*67);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/ddeded-2.jpg");
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px #3c3125;
+}
+
+#ass-2 {
+    width: calc(250px/100*67);
+    height: calc(250px/100*67);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img/Ilario\ Daneluzzi.jpg");
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px #3c3125;
+}
+
+.seconds-links {
+    color:#3c3125;
 }
