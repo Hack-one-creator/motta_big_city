@@ -12,7 +12,6 @@ body {
     background-size: cover;
     margin: 0px;
     color: #e1dccd;
-    overflow: auto;
 }
 
 .second-part {
@@ -27,13 +26,14 @@ body {
 }
 
 .third-part {
+    font-weight: bold;
     margin-top: 50px;
     margin-bottom: 100px;
     background-color: #e1dccd;
     display: flex;
     justify-content: center;
     padding: 50px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #main-title {
@@ -93,5 +93,5 @@ body {
     background-position: center;
     background-image: url("img/sindaco.jpg");
     border-radius: 50%;
-    margin: 10px;
+    box-shadow: 0px 0px 50px #3c3125;
 }
